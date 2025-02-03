@@ -19,11 +19,12 @@ const App = () => {
   };
   return (
   <Router>
-    <div style={{height:'100%'}}>   
-      <div style={styles.NavBar} >
-        <Header/>
+    <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+      <div style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100 }}>
+        <Header />
       </div>
-      <main>
+
+      <main className='main-app'>
         <AppRoutes />
       </main>
       <Footer />

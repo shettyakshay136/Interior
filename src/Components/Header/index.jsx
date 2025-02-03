@@ -19,7 +19,7 @@ const Index = () => {
         // }
       };
     return (
-        <div style={{backgroundColor: 'rgba(0, 0, 0, 0.1)',borderRadius:8,backdropFilter: 'blur(20px)',paddingLeft:5 , paddingRight:5}}>
+        <div style={{backgroundColor: 'rgba(0, 0, 0, 0.1)',borderRadius:8,backdropFilter: 'blur(20px)',paddingLeft:8 , paddingRight:8}}>
             <div style={{justifyContent:'space-between',flexDirection:'row',display:'flex',alignItems:'center',}}>
                 <div>
                     <h1 style={{ fontWeight:'400',color:'#3A3A3A'}}>Buy Interiors</h1>
@@ -44,7 +44,7 @@ const Index = () => {
                             }}
                         />
                     </div>
-                    <IoSearchOutline size={24}/>
+                    {/* <IoSearchOutline size={24}/> */}
                 </div>
             </div>
             <div style={{justifyContent:'center',display:'flex',top:32,position:'absolute',left:0,right:0,paddingBottom:5}}>
