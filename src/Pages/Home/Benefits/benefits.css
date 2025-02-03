@@ -1,0 +1,91 @@
+.main-b{
+    /* width: 100%; */
+    overflow-x: hidden;
+    padding-top: 4rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.header-div{
+    justify-content: center;
+    display: flex;
+}
+.Header{
+    color: #1E485B;
+    font-size: 50px;
+    font-weight: '400';
+}
+.h1{
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+.Parent-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.ptext{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+    text-align: center;
+
+}
+.ul-li{
+    gap: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+.ul{
+    /* flex-direction: ;
+    display: flex; */
+    gap: 50px;
+    width: 45%;
+
+}
+.li{
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.container-item{
+    width: 45%;
+
+}
+.item{
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-bottom-color: #1E485B;
+    padding-bottom: 30px;
+    width: 100%;
+
+}
+.item-number{
+    font-weight: 400;
+
+}
+.item-h2{
+    width: 50%;
+    font-weight: 400;
+}
+.item-p-text{
+    color: #4c4c4c;
+}

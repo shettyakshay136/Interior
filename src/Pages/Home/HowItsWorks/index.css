@@ -1,0 +1,71 @@
+.main{
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: 4rem;
+    padding-left: 2.5rem;
+}
+.Header{
+    color: #1E485B;
+    font-size: 50px;
+    font-weight: '400';
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 4.5rem;
+    padding-right: 7rem;
+    /* width: 100%; */
+    padding-top: 1.5rem;
+    background-color: purple;
+}
+.paragraph{
+    width: 40%;
+    background-color: blue;
+}
+.button{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 26px;
+    background-color: #1E485B;
+    color:white;
+    border: 0;
+    font-size: 1rem;
+}
+.Ptext{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+
+}
+.container-item{
+    width: 45%;
+    background-color: white;
+
+}
+.item{
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-bottom-color: #1E485B;
+    padding-bottom: 30px;
+    width: 100%;
+
+}
+.item-number{
+    font-weight: 400;
+
+}
+.item-h2{
+    width: 50%;
+    font-weight: 400;
+}
+.item-p-text{
+    color: #4c4c4c;
+}
